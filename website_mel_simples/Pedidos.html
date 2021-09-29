@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Amigo Urso</title>
+        <link rel="stylesheet" type="text/css" href="css/Main.css"/>
+    </head>
+    <body>
+        <header>
+            <img class="imglogo" src="img/AmigoUrso_topo.png">
+            <address class="ender">
+                Rua Apis Melifera, 1 <br>
+                Tel: (21) 91122-3344<br>
+                contato@zangao.com.br<br> 
+            </address>  
+            <hr>
+        </header>    
+        <nav>
+            <ul>
+                <li><a href="AmigoUrso.html">Apresentação</a></li>
+                <li><a href="Demel.html">Mistura de Mel</a></li>
+                <li><a href="Dabel.html">Direto da Abelha</a></li>
+                <li><a href="Pedidos.html">Pedidos</a></li>
+            </ul>
+        </nav>
+        <form class="divCompras">
+            Compras
+            <fieldset>
+                Identifição
+                <div>
+                    <label>Nome:</label>
+                    <input class="inpGrande" type="text" name="nome" id="nome">
+                </div>
+                <br>
+                <div>
+                    <label>E-mail:</label>
+                    <input class="inpGrande" type="email" name="email" id="email">
+                </div>
+                <br>
+                <fieldset class="fsDir">
+                    <div class="elemDir">
+                        <label>Gênero:</label><br>
+                        <input type="radio" name="Mas">Mas</input>
+                        <input type="radio" name="Fem">Fem</input>
+                        <input type="radio" name="Out">Outro</input>
+                    </div> 
+                </fieldset>        
+                <div>
+                    <label>Endereço:</label>
+                    <textarea class="inpEnder"></textarea>
+                </div>
+                <br>
+                <fieldset class="fsDir">
+                    <div class="elemDir">  
+                        <div>
+                            <label for="nasci">Nascimento:</label>
+                            <input type="date" name="nascimento" min="1960-01-01" max="2005-12-31">
+                        </div>
+                    </div>
+                </fieldset>
+                <div>
+                    <label>Telefone:</label>
+                    <input class="inpTelef" type="tel" name="tel"/>
+                </div>
+                <br>
+                <div>
+                    <label>Celular:</label>
+                    <input class="inpMedio" type="cel" name="cel"/>
+                </div>  
+            </fieldset>
+            <br>
+            <fieldset>
+                <label>Seleção de Produtos e Pagamento</label>
+                <br>
+                <select>
+                    <optgroup label="Iogurte">
+                        <option>Natural com mel (150g)</option>
+                        <option>Zero lactose (150g)</option>
+                    </optgroup>
+                    <optgroup label="Bala">
+                        <option>Gengibre e Mel (60g)</option>
+                        <option>Mel e Anis (60g)</option>
+                    </optgroup>
+                    <optgroup label="Barra de Cereal">
+                        <option>Mel e Granola (25g)</option>
+                    </optgroup>
+                    <optgroup label="Pote de Mel">
+                        <option>Mel Flores Silvestres (350g)</option>
+                        <option>Mel de Eucalipto (450g)</option>
+                        <option>Mel Flor de Laranjeira (750g)</option>
+                    </optgroup>
+                    <optgroup label="Própolis">
+                        <option>Extrato (30ml)</option>
+                        <option>Spray</option>
+                    </optgroup>
+                </select>
+                <input type="button" value="Comprar">
+                <br>
+                <br>
+                <textarea class="colSelProd"></textarea>
+                <br>          
+                <fieldset class="fsEsq">
+                    Cartão
+                    <div>
+                        <label>Bandeira:</label>
+                        <input type="radio" name="Visa">Visa</input>
+                        <input type="radio" name="Master">Master</input>
+                        <input type="radio" name="Elo">Elo</input>
+                    </div> 
+                    <br>
+                    <div>
+                        <label>Validade:</label>
+                        <input class="inpMedio" type="month">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Número:</label>
+                        <input class="inpMedio">
+                    </div>
+                </fieldset>
+                <div class="elemDir">
+                    <br>
+                    <label>Valor R$</label>
+                    <input class="inpMedio">
+                </div>              
+            </fieldset>  
+            <br> 
+            <div class="elemDir">
+                <input type="button" value="Enviar"> 
+                <input type="button" value="Limpar">  
+            </div>
+            <br>
+        </form>
+    </body>
+</html>    
+

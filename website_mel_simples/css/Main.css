@@ -1,0 +1,263 @@
+body {
+    background-color: #FF5555;
+    color: #FFDD22;
+    font-size: 18px;
+    font-style: Georgia;
+}
+
+header { 
+    display:block; 
+    margin-bottom: 25px; 
+}
+
+hr {
+    size: 320px;
+}
+
+.ender {
+    text-align: right;
+    font-size: 14px;
+    line-height: 140%;
+    float: right;
+}
+
+nav { 
+    margin-right: 10px;
+    display:block; 
+    width: 200px; 
+    float: left; 
+    font-weight: bold;
+    font-style: verdana;
+}
+
+ol, ul {
+    line-height: 200%;
+}
+
+nav ul {
+    color: #FFDD22;
+    line-height: 230%;
+    margin-top: 40px;
+    list-style-type: disc;
+}
+
+a {
+    color: #FFDD00;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FFBB00;
+}
+
+section { 
+    display:block; 
+    width: 70%; 
+    justify-content: center;
+ }
+
+.apres {
+    text-align: center;
+    font-size: 18px;
+    float: right;
+}
+
+p {
+    text-align: center;
+   font-size: 18px;
+}
+
+.mistura {
+    font-size: 21px;
+    padding-right: 15%;
+}
+
+.listaComMel {
+    width: 340px;
+    color: #AA0000;
+    background-color: #EECC88;
+    padding: 10px 10px 10px 50px;
+    border: 2px solid #000055;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    list-style: square;
+}
+.romNum{
+    list-style: upper-roman;
+}
+
+.listaComMel ul {
+    color: #AA0000;
+    list-style: square;
+}
+
+
+.tabDaBel {
+    border: solid thin;
+    border-collapse: collapse;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFCC44;
+    color: #000066;
+    font: sans-serif;
+    text-align: left;
+} 
+
+.tabDaBel td, th {
+    border: 3px solid #226699;
+    padding: 6px 12px 6px 12px;
+}
+
+ th {
+    color: #FFFF00;
+    background-color: #228855;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.linTH {
+    color: #FFFFFF;
+    background-color: #22AA55;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.colTH {
+    color: #FFFFFF;
+    background-color: #2299DD;
+    text-align: left;
+}
+
+.imgDaBel {
+    width: 70px;
+    height: 70px;
+}
+
+.divCompras {
+    width: 550px;
+    color: #2255AA;
+    background-color: #EEEEAA;
+    padding: 6px 6px 15px 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #77CCDD;
+    font-size: 14px;
+}
+
+.listaCompras {
+    width: 210px;
+    height: 160px;
+    float: right;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.colLabSelProd {
+    width: 230px;
+    height: 40px;
+    float: left;
+}
+
+.colSelProd {
+    width: 245px;
+    height: 139px;
+    float: right;
+}
+
+.linhaProdSel {
+    width: 220px;
+    margin-bottom: 6px;
+    float: left;
+}
+
+.elemEsq {
+    display: block;
+    float: left;
+}
+
+.elemDir {
+    display: block;
+    float: right;
+}
+
+.botoes {
+    text-align: right;
+    margin: 20px 10px 0px 10px;
+}
+
+.fsEsq {
+    float: left;
+    display: inline;
+    margin: 0px;
+}
+
+.fsDir {
+    float: right;
+    display: inline;
+    margin: 0px;
+}
+
+.inpGrande {
+    width: 380px;
+}
+
+.inpMedio {
+    width: 80px;
+}
+
+.inpNCC {
+    width: 130px;
+}
+
+.inpTelef {
+    width: 90px;
+}
+
+.inpEnder {
+    width: 180px;
+    height: 50px;
+}
+
+.numDD {
+    width: 30px;
+}
+
+.numQD {
+    width: 50px;
+}
+
+.divLinha {
+    width: 500px;
+    margin-bottom: 6px;
+}
+
+.colLabCrd {
+    width: 260px;
+    height: 40px;
+    float: left;
+}
+
+.colPri {
+    float: left;
+    display: block;
+    width: 90px;
+}
+
+.colPriCompras {
+    float: left;
+    display: block;
+    width: 86px;
+}
+
+.colPriPag {
+    float: left;
+    display: block;
+    width: 250px;
+}
